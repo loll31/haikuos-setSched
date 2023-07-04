@@ -21,4 +21,4 @@ Todo list:
 + add Deskbar repliquant to show current mode, swap between modes
 
 
-Copyright (c) 2023 Laurent Jean-Rigaud beosland<at>free.fr
+Copyright (c) 2023 Laurent Jean-Rigaud beosland at free.fr
