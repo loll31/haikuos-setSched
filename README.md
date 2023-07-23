@@ -13,7 +13,7 @@ usage: setSched [-e|-p|-h]
  -p : performance/low latency mode
 ```
 
-To apply sheduler mode at boot time, add setSched at the end of $HOME/config/settings/boot/UserBootscript file.
+To apply sheduler mode at boot time, copy binary in /boot/home/config/non-packaged/bin and add setSched at the end of $HOME/config/settings/boot/UserBootscript file.
 
 ```sh
 ../..
@@ -21,7 +21,7 @@ To apply sheduler mode at boot time, add setSched at the end of $HOME/config/set
 # the above boot launch directory.
 
 # set economic mode
-/boot/home/setSched-1_0_0/objects.x86_64-cc11-release/setSched -e
+/boot/home/config/non-packaged/bin/setSched -e
 ```
 
 > Do not forget to update setSched path !
